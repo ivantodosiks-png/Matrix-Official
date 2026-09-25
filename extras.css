@@ -1,0 +1,3 @@
+.profile{width:32px;height:32px;border:1px solid var(--line);object-fit:cover}.behind-grid,.review-visuals{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.behind-grid figure{margin:0;border:1px solid var(--line);background:#151715}.behind-grid img,.review-visuals img{display:block;width:100%;height:290px;object-fit:cover;filter:saturate(.55)}.review-visuals{margin-top:14px}.review-visuals img{height:200px;border:1px solid var(--line)}
+@media(max-width:980px){.profile{display:none}}
+@media(max-width:680px){.behind-grid,.review-visuals{grid-template-columns:1fr}}
